@@ -1,0 +1,51 @@
+.itemContainer{
+    height: 100px;
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.leftContainer{
+    height: 100px;
+    display: flex;
+    justify-items: left; 
+     
+}
+.imgContainer{
+    width: 120px;
+}
+img{
+    height: 100px;
+}
+
+.itemDescription{
+    font-size: 1rem;
+    text-align: left;
+}
+          
+.rightContainer{
+    
+}
+#favorite{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+.favorite{
+    width: 40px;
+    height: 40px;
+    background-color:chartreuse;
+    background-image:💚;
+    border: 1px solid greenyellow;
+}
+.nofavorite{
+    
+    width: 40px;
+    height: 40px;
+    
+    border: 1px solid gray;
+}
+#favorite:hover {
+    cursor: pointer;
+}
